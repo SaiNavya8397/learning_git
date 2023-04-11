@@ -21,13 +21,10 @@ public class DataDriven {
 
 
    String path=".\\TestData\\Multi_Language_Data (1).xlsx";
+   String path1=".\\TestData\\Multi_Language_Data (1).xlsx";
+   
 
-
-   public void Access_To_Work_Book(String SheetName, String path)
-
-
-
-   {
+   public void Access_To_Work_Book(String SheetName, String path) {
 
 
 
