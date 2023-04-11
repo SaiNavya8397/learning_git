@@ -12,35 +12,15 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class DataDriven {
 	FileInputStream fi;
-
-
-
     FileOutputStream fo;
-
-
-
     XSSFWorkbook book;
-
-
-
     XSSFSheet sht;
-
-
-
     XSSFRow row;
-
-
-
     XSSFCell cell;
 
 
 
-   // String path=".\\TestData\\Multi_Language_Data (1).xlsx";
-
-
-
-   
-
+   String path=".\\TestData\\Multi_Language_Data (1).xlsx";
 
 
    public void Access_To_Work_Book(String SheetName, String path)
@@ -204,3 +184,5 @@ public class DataDriven {
    }
 
 }
+
+//adding comments to learn git hub commands
